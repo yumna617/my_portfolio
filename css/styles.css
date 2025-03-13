@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    padding: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00 !important;
+}
+
+.profile-img {
+    width: 150px;
+    transition: transform 0.3s;
+}
+.profile-card:hover {
+    transform: scale(2.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   
+}
+.project-card {
+    transition: transform 0.3s, box-shadow 0.3s;
+    border-radius: 10px;
+   
+    overflow: hidden;/* it ensure scaling work */
+}
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.progress {
+    height: 20px;
+}
